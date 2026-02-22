@@ -1,11 +1,13 @@
+interface Product {
+    title: string;
+    id: number
+}
+
 const usernames: string[] = ["alice", "bob", "charlie"];
 
 const ratings: number[] = [4.5, 3.8, 5];
 
-const products: {
-    title: string;
-    id: number
-}[] = [
+const products: Product[] = [
   { id: 1, title: "Phone" },
   { id: 2, title: "Laptop" },
 ];
